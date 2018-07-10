@@ -10,6 +10,7 @@
 	<design:attribute name="filterFieldValue" label="I7_Filter Value" /> 
 	<design:attribute name="parentChild" label="I5_'Parent' or 'Child' Lookup?" />
 	<design:attribute name="whereClause" label="Where Clause"/>
-    <design:attribute name="defaultValue" label="Default Value"/>
+  <design:attribute name="defaultValue" label="Default Value"/>
 	
 </design:component>
+
