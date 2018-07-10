@@ -16,7 +16,7 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <aura:component controller="LightningLookupController">
 
 	<ltng:require scripts="{!$Resource.jQuery_LookupCmp + '/jQuery1_11_2.js'}" />
-    <!-- ltng:require scripts="/resource/jQuery_LookupCmp/jQuery1_11_2.js"/ -->
+  <!-- ltng:require scripts="/resource/jQuery_LookupCmp/jQuery1_11_2.js"/ -->
     
 	<aura:attribute name="sObjectName" type="String" access="public" required="false" description="Name of the sObjectName to gather records from"/>
 	<aura:attribute name="sObjectField" type="String" access="public" required="false" description="Full name of the SObject field the component is for"/>
@@ -52,7 +52,6 @@ IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 	<aura:attribute name="isParent" type="Boolean" access="public" required="true" description="True if parentChild == Parent"/>
 	<aura:attribute name="masterFilterValue" type="String" access="public" required="false" description="Master recordId for Child filter values"/>
 	<aura:attribute name="defaultValue" type="String" access="public" required="false" description="Default value for lookup field"/>
-
     
 	<aura:attribute name="matchedListDisplay" type="String[]" access="private" />
 	<aura:attribute name="matchedListValue" type="String[]" access="private" />
